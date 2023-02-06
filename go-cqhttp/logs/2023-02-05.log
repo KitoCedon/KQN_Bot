@@ -1,0 +1,105 @@
+[2023-02-05 00:23:19] [WARNING]: 语音文件 66775d5afc2a204fb5f2d33138ce07c3.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-05 00:47:38] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 00:47:43] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 01:01:47] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 01:01:52] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 01:52:48] [ERROR]: Protocol -> upload long message error: unexpected multimsg apply up response: 192 
+[2023-02-05 01:52:48] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 04:49:45] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-02-05 04:49:49] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:51160->43.248.98.5:65000: use of closed network connection 
+[2023-02-05 08:10:52] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 08:10:57] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 08:16:40] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 08:16:45] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 08:56:16] [WARNING]: 语音文件 E7A77D11EF4AFE066E7BD27CEABDD7B5.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-05 09:23:27] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 09:23:32] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 10:20:36] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-05 10:20:38] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-02-05 10:22:26] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 10:22:31] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 11:56:52] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 11:56:57] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 15:45:07] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 15:45:11] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 16:06:44] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-05 16:06:46] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-02-05 17:02:53] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-02-05 17:03:05] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:50050->43.248.98.5:65000: use of closed network connection 
+[2023-02-05 17:13:18] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-02-05 17:13:28] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:52439->43.248.98.5:65000: use of closed network connection 
+[2023-02-05 18:14:53] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 18:14:59] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 3393 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x11df0000, 0x11e49530)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:332 +0x46
+panic({0x1140c20, 0x120008b0})
+	runtime/panic.go:1038 +0x1bc
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x11df0000, 0x12130420, {0x11c1c6e0, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/multimsg.go:102 +0xa2b
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x11df0000, 0x1220e780, 0x11e49530)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:343 +0x187
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:329 +0x599
+ 
+[2023-02-05 18:14:59] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1675592099.dump 请连同日志提交给开发者处理 
+[2023-02-05 18:15:28] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 18:59:45] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 18:59:50] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 19:01:47] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 19:01:52] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 19:01:53] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 19:01:58] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 19:04:33] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 19:04:38] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 19:04:39] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 19:04:44] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 19:08:57] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 19:09:02] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 19:11:01] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 19:11:07] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 19:11:08] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 19:11:12] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 19:11:55] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 19:12:00] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 20:20:20] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 20:20:24] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 20:25:17] [WARNING]: 语音文件 fb103806f75d40c73a62e25cfe323313.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-05 20:32:00] [WARNING]: 语音文件 f90f4f77b2d5657ee297fdd9d72358b7.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-05 20:33:12] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 20:33:17] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 20:37:34] [WARNING]: 语音文件 a6bd573c8172d9f701465c173073726e.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-05 22:20:17] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 22:20:22] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 22:31:57] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 22:32:02] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 22:36:40] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 22:36:45] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 22:37:37] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 22:37:42] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 23:02:21] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 23:02:26] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 23:21:13] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 23:21:17] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 23:23:02] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 23:23:07] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 23:25:40] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-05 23:25:45] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-05 23:48:09] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 14222 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x11df0000, 0x11f26150)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:332 +0x46
+panic({0x1140c20, 0x120003b0})
+	runtime/panic.go:1038 +0x1bc
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x11df0000, 0x11c8c720, {0x11c1c0f0, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/multimsg.go:102 +0xa2b
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x11df0000, 0x11e84018, 0x11f26150)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:343 +0x187
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:329 +0x599
+ 
+[2023-02-05 23:48:09] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1675612089.dump 请连同日志提交给开发者处理 

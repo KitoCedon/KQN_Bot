@@ -1,0 +1,48 @@
+[2023-02-03 00:04:26] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 00:04:31] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 01:28:05] [WARNING]: 语音文件 3facd99d6ecdf06621ef0d7f6bd45d76.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-03 03:30:21] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 03:30:26] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 04:47:51] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-02-03 04:47:53] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:57237->43.248.98.5:65000: wsasend: An established connection was aborted by the software in your host machine. 
+[2023-02-03 13:29:21] [WARNING]: 语音文件 4500DCD6-0231-E7B9-7CF4-E74F67D71B8B.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-03 13:37:45] [WARNING]: 语音文件 0B5A1090035ABFA27C9DB9E2EB10A782.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-03 13:37:58] [WARNING]: 语音文件 CF1844BC0D9E12999149F3232B438ADE.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-03 15:05:57] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-02-03 15:06:00] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:51276->43.248.98.5:65000: wsasend: An established connection was aborted by the software in your host machine. 
+[2023-02-03 15:06:22] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-02-03 15:06:34] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:63681->43.248.98.5:65000: use of closed network connection 
+[2023-02-03 17:06:47] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 17:06:52] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 18:27:22] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 18:27:27] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 19:04:56] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 19:05:00] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 19:21:03] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 19:21:08] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 19:23:00] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 20:28:21] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 20:28:26] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 20:40:49] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 20:40:50] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 20:40:54] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 20:40:55] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 20:51:45] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 20:51:50] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 20:55:53] [WARNING]: 语音文件 10BBFEDB2BD820C2B424D26277E4A3B0.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-03 21:09:21] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 21:09:26] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 21:31:25] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 21:31:29] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 21:45:46] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 21:45:51] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 21:49:01] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 21:49:06] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 22:28:43] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 22:28:47] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 22:33:14] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 22:33:19] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 22:37:48] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 22:37:53] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-03 23:29:09] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-03 23:29:13] [WARNING]: 群消息发送失败: 账号可能被风控. 

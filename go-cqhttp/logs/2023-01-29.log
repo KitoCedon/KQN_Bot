@@ -1,0 +1,104 @@
+[2023-01-29 00:03:50] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 00:03:55] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 00:06:00] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 00:06:05] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 00:07:20] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 00:07:25] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 00:56:09] [WARNING]: 监听反向WS Universal时出现错误: read tcp 192.168.1.101:57743->43.248.98.5:65000: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-01-29 00:56:12] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:57743->43.248.98.5:65000: wsasend: An existing connection was forcibly closed by the remote host. 
+[2023-01-29 02:25:13] [WARNING]: 语音文件 AF7A4F42-761D-C307-4D46-5B2D9BF4FEC6.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 02:25:26] [WARNING]: 语音文件 8960E968-CACF-6FB8-9DBD-39FAF33DCF3A.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 02:36:48] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 02:36:53] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 03:25:18] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 03:25:23] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 03:44:48] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 03:44:52] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 04:07:57] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 04:08:02] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 04:23:35] [WARNING]: 语音文件 3F9150FB41AD19E1D0750E83FAED6DDB.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 04:50:04] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-01-29 04:50:10] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:63586->43.248.98.5:65000: use of closed network connection 
+[2023-01-29 06:13:31] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 06:13:35] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 06:34:25] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 06:34:30] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 06:35:05] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 06:35:10] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 09:27:32] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 37232 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x1211a680, 0x12430e10)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:332 +0x46
+panic({0x1580c20, 0x125cda00})
+	runtime/panic.go:1038 +0x1bc
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x1211a680, 0x123c4a00, {0x124be910, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/multimsg.go:102 +0xa2b
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x1211a680, 0x12007f48, 0x12430e10)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:343 +0x187
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:329 +0x599
+ 
+[2023-01-29 09:27:32] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1674955652.dump 请连同日志提交给开发者处理 
+[2023-01-29 10:10:35] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 10:10:40] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 10:13:25] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 10:13:30] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 10:29:05] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-01-29 10:52:14] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 10:52:18] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 11:49:42] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 11:49:47] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 11:58:17] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 11:58:21] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 11:58:28] [WARNING]: 语音文件 FAD90B08C25942CD5CE747DB4E275112.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 12:04:39] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 12:04:43] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 12:05:00] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 12:05:04] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 12:15:01] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 12:15:06] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 12:30:24] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 12:30:29] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 12:45:45] [WARNING]: 语音文件 21FF8856430FFF98627AD2482B4C03D1.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 12:45:58] [WARNING]: 语音文件 542A38593F32A069632348540B969DEA.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 13:14:18] [WARNING]: 语音文件 2FD0AC55F2E652004A3FBD39A9853C2B.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 13:24:42] [WARNING]: 语音文件 540EE5819263EF3A72D27E324AC62452.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 13:26:01] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 13:26:06] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 14:15:51] [WARNING]: 语音文件 7CAE78FE968A8BDF382B0421C94F201B.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 14:20:07] [WARNING]: 语音文件 EBBD08D44C36A57211AA1B59EEE494FE.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 14:22:33] [WARNING]: 语音文件 37C042BAA4E9C98C20EA7C862421B626.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 14:22:46] [WARNING]: 语音文件 6DA20DFEFF4B9C50135C5010546360AF.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 14:48:08] [WARNING]: 语音文件 946B5CAC1E97B004DD331DC88EF5454F.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 18:47:16] [ERROR]: Protocol -> upload long message error: unexpected multimsg apply up response: 192 
+[2023-01-29 18:47:16] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 20:56:11] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.101:49995->36.155.213.147:8080: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-01-29 20:56:49] [WARNING]: 监听反向WS Universal时出现错误: read tcp 192.168.1.101:50049->43.248.98.5:65000: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-01-29 20:56:54] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:50049->43.248.98.5:65000: use of closed network connection 
+[2023-01-29 21:30:11] [WARNING]: 语音文件 8C4F3578025054B27486202364BFC498.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-01-29 22:14:32] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:14:36] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:22:14] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:22:19] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:22:20] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:22:24] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:24:48] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:24:53] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:26:05] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:26:10] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:36:57] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:37:01] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:44:07] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:44:12] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:44:29] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:44:34] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:46:03] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:46:07] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:53:39] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:53:44] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:57:09] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:57:14] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-01-29 22:58:01] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-01-29 22:58:06] [WARNING]: 群消息发送失败: 账号可能被风控. 

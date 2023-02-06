@@ -1,0 +1,80 @@
+[2023-02-06 00:00:02] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 14465 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x11df0000, 0x11d656b0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:332 +0x46
+panic({0x1140c20, 0x1225eee0})
+	runtime/panic.go:1038 +0x1bc
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x11df0000, 0x11ea8580, {0x11cfc3c0, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/multimsg.go:102 +0xa2b
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x11df0000, 0x121ff078, 0x11d656b0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:343 +0x187
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:329 +0x599
+ 
+[2023-02-06 00:00:02] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1675612802.dump 请连同日志提交给开发者处理 
+[2023-02-06 00:02:17] [WARNING]: 语音文件 e408cd6a809eaaf65933b79f0e45d56b.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-06 00:02:30] [WARNING]: 语音文件 125bc08e420b08af364d0dc024c9c217.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-06 00:02:42] [WARNING]: 语音文件 13f9362496902229476ce3e04bb68c4d.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-06 00:07:53] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 15007 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x11df0000, 0x11e48870)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:332 +0x46
+panic({0x1140c20, 0x120bda00})
+	runtime/panic.go:1038 +0x1bc
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x11df0000, 0x11ea8ee0, {0x11c1c6e0, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/multimsg.go:102 +0xa2b
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x11df0000, 0x11f8c8c0, 0x11e48870)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:343 +0x187
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:329 +0x599
+ 
+[2023-02-06 00:07:53] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1675613273.dump 请连同日志提交给开发者处理 
+[2023-02-06 00:29:27] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 00:29:32] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 00:33:59] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 00:34:04] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 00:46:50] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 16522 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x11df0000, 0x11fc75f0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:332 +0x46
+panic({0x1140c20, 0x1225f6a0})
+	runtime/panic.go:1038 +0x1bc
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x11df0000, 0x12130f50, {0x11cfc230, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/multimsg.go:102 +0xa2b
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x11df0000, 0x1228d7d0, 0x11fc75f0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:343 +0x187
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20220209092529-5d071b034c17/client/network.go:329 +0x599
+ 
+[2023-02-06 00:46:50] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1675615610.dump 请连同日志提交给开发者处理 
+[2023-02-06 01:53:50] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 01:53:54] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 01:55:28] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 01:55:32] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 02:15:17] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 02:15:22] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 02:18:10] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 02:18:15] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 02:18:56] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 02:19:01] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 02:25:30] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 02:25:34] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 02:29:57] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 02:30:02] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 02:49:48] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 02:49:53] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 02:52:01] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 02:52:06] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-06 02:57:49] [WARNING]: 语音文件 66775d5afc2a204fb5f2d33138ce07c3.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-06 04:46:57] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-02-06 04:47:02] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:52840->43.248.98.5:65000: use of closed network connection 
+[2023-02-06 06:16:26] [WARNING]: 语音文件 0f3ce96c6a135c2208b49cf5f95a1856.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-06 09:54:58] [WARNING]: 语音文件 0f3ce96c6a135c2208b49cf5f95a1856.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-06 09:58:32] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-06 09:58:37] [WARNING]: 群消息发送失败: 账号可能被风控. 

@@ -1,0 +1,69 @@
+[2023-02-04 04:45:22] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-02-04 04:46:23] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 192.168.1.101:63695->43.248.98.5:65000: use of closed network connection 
+[2023-02-04 09:14:15] [WARNING]: 语音文件 41e131d995d9631902b6db39db622646.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-04 09:52:28] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 09:52:33] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 09:56:56] [WARNING]: 语音文件 2d335205481cc83ac36bea682a14d111.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-04 09:58:20] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 09:58:24] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 10:04:20] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 10:04:25] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 10:10:31] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 10:10:36] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 10:18:05] [WARNING]: 恢复会话失败: token failed , 尝试使用正常流程登录. 
+[2023-02-04 10:18:06] [WARNING]: 登录需要滑条验证码, 请使用手机QQ扫描二维码以继续登录. 
+[2023-02-04 10:19:02] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-04 11:03:02] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 11:16:01] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 11:21:20] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 11:31:30] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 11:41:38] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 11:51:39] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 11:57:23] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 12:43:54] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 12:53:47] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 15:40:22] [WARNING]: 语音文件 499EDEBB3153E739D35D514959DE6214.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-04 17:46:10] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 17:49:49] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 17:52:07] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 18:01:35] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 18:06:07] [WARNING]: 语音文件 926b5b7d7d4a6f2591f9f56eb1a144c2.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-04 18:06:33] [WARNING]: 语音文件 eed3306dc6614d987dbe5a2d64b90d0b.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-04 18:06:33] [WARNING]: 语音文件 13f9362496902229476ce3e04bb68c4d.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-04 18:06:46] [WARNING]: 语音文件 a6f18848dd1fdc0e1bd84beb17c64e4e.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-04 18:13:26] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 18:20:20] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 18:24:15] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 18:28:41] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 19:37:52] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-04 20:14:34] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-04 20:14:36] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-02-04 20:26:47] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-04 20:26:49] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-02-04 20:31:39] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-04 20:31:41] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-02-04 21:26:51] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-04 21:26:53] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-02-04 21:34:51] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 21:34:56] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 22:05:24] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-02-04 22:05:26] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-02-04 22:40:03] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 22:40:08] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 22:42:45] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 22:42:49] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 22:48:53] [WARNING]: 语音文件 d62b839e2b3e7cf865df65a39a025f0f.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-02-04 23:14:44] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 23:14:48] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 23:17:56] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 23:18:01] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 23:19:15] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 23:19:20] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 23:28:26] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 23:28:30] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 23:31:09] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 23:31:13] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 23:56:06] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 23:56:11] [WARNING]: 群消息发送失败: 账号可能被风控. 
+[2023-02-04 23:58:36] [ERROR]: Protocol -> sendPacket msg error: 120  
+[2023-02-04 23:58:41] [WARNING]: 群消息发送失败: 账号可能被风控. 
